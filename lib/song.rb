@@ -17,14 +17,17 @@ class Song
     @@count
   end
 
+  def self.genres
+    @@genres
+  end
+  
   def self.artists
     @@artists
   end
 
-  def self.genres
-    @@genres
+  def self.genre_count
+    num_of_songs = {}
   end
-
 
 
 end
