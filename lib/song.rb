@@ -9,6 +9,9 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
+    @@genre << genre unless @@genre.include?(genre)
+
+    end
   end
 
   def self.count
